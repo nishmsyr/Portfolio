@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Muhammad Danish Amsyar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><b>Muhammad Danish Amsyar bin Mustapa Kamal</b></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Muhammad Danish Amsyar bin Mustapa Kamal</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#achievement" onclick="toggleMenu()">Achievement</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Profile.png" alt="Amsyar profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, My name is</p>
+        <h1 class="title">Danish Amsyar</h1>
+        <p class="section__text__p2">Computer Science Student</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Amsyar-resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/LinkedIn-Light.png"
+            alt="LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/danish-amsyar-541612350/'"
+          />
+          <img
+            src="./assets/GitHub-Light.png"
+            alt="GitHub profile"
+            class="icon"
+            onclick="location.href='https://github.com/nishmsyr'"
+          />
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-profile.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/achievement.png"
+                alt="Skill Icon"
+                class="icon"
+              />
+              <h3>Achievement</h3>
+              <p>
+                Dean List Awards<br />September 2023 Semester<br />September
+                2024 Semester
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education Icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                <b>SMK Abdul Jalil | Hulu Langat, Selangor</b><br />Pure Science
+                and Computer Science Course<br /><br /><b
+                  >Universiti Teknologi Mara | Jasin, Melaka</b
+                ><br />Diploma in Computer Science
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a passionate and driven Computer Science student with a
+              strong interest in software development, algorithms, and emerging
+              technologies. I enjoy solving complex problems, learning new
+              programming languages, and building practical projects that
+              enhance my understanding of computer systems. With a solid
+              foundation in data structures, databases, and object-oriented
+              programming, I am always eager to expand my knowledge and take on
+              new challenges in the tech world. I'm also a strong believer in
+              continuous learning and collaboration, and I'm excited to
+              contribute to innovative and impactful projects.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#achievement'"
+      />
+    </section>
+    <hr />
+    <section id="skill">
+      <p class="section__text__p1">My</p>
+      <h1 class="title">Skills</h1>
+      <div class="tools-container">
+        <img src="./assets/vscode.png" alt="VSCode" class="tools-icon" />
+        <img src="./assets/mysql.png" alt="MySQL" class="tools-icon" />
+        <img
+          src="./assets/virtualbox.png"
+          alt="virtualbox"
+          class="tools-icon"
+        />
+        <img src="./assets/cisco.png" alt="Cisco" class="tools-icon" />
+        <img src="./assets/xampp.png" alt="Xampp" class="tools-icon" />
+      </div>
+      <div class="skill-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skill-sub-title">Programming Language</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/html.png" alt="HTML icon" class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/css.png" alt="CSS icon" class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/js.png" alt="JavaScript icon" class="icon" />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/java.png" alt="Java icon" class="icon" />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/sql.png" alt="SQL icon" class="icon" />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/c++.png" alt="C++ icon" class="icon" />
+                <div>
+                  <h3>C++</h3>
+                  <p>Begineer</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/python.png" alt="Python icon" class="icon" />
+                <div>
+                  <h3>Python</h3>
+                  <p>Begineer</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skill-sub-title">More Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Related Course</h3>
+                  <p>
+                    <b>Computer Network and Technology:</b>Fundamental of
+                    Algorithm and Computer Problem Solving, Computer
+                    Organization, Operating System Concept, Digital Electronics,
+                    Introduction to Computer Security Technology, Introduction
+                    to Data Communication and Networking, Digital Electronics
+                  </p>
+                  <p>
+                    <b>Programming:</b>Object Oriented Programming, Internet
+                    Programming, Data Structures, Introduction to Web and Mobile
+                    Application
+                  </p>
+                  <p>
+                    <b>Multimedia:</b>Introduction to Interactive Multimedia
+                  </p>
+                  <p>
+                    <b>Database:</b>Introduction to Database Management System
+                  </p>
+                  <p>
+                    <b>Information System:</b>Information Systems Development
+                  </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Strength</h3>
+                  <p>
+                    I am a reliable and responsible individual who is
+                    hardworking, a fast learner, and able to quickly adapt to
+                    new challenges. I thrive in team environments, communicate
+                    effectively, and consistently demonstrate strong
+                    problem-solving skills, attention to detail, and a
+                    commitment to delivering high-quality results.
+                  </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Language</h3>
+                  <p>Malay & English</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <hr />
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="skill-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/pokedex-project.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skill-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skill-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skill-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <hr />
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/Email-Light.png"
+            alt="Email icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="mailto:danishamsyar06@gmail.com"
+              >danishamsyar06@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/LinkedIn-Light.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/danish-amsyar-541612350/"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#achievement">Achievement</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Danish Amsyar. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
